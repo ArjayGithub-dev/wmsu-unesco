@@ -20,6 +20,7 @@ import wmsu from "./wmsu.png";
 import aboutus_img from "./aboutus_img.png";
 import clarise from "./clarise.jpg";
 import quote from "./quote.svg";
+import facebook from "./facebook.png"
 
 export { 
     img1, 
@@ -44,4 +45,5 @@ export {
     aboutus_img,
     clarise,
     quote,
+    facebook,
 };

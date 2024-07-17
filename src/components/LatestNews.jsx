@@ -8,16 +8,18 @@ const LatestNews = () => {
         <div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative mr-10`}>
           <img src={img11} alt="" className="w-[100%] h-[100%] rounded-xl border-2 border-[#F48401]" />
         </div>
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-10`}>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 mb-10`}>
           <p className="font-spacegrotesk font-regular text-[18px]">Latest News </p>
           <div className="flex flex-row justify-between items-center w-full mb-5">
             <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
-              Making a difference
+              Building Bridges of Peace and Connection 🤝☮️
             </h1>
           </div>
           <p className={`${styles.paragraph} font-spacegrotesk font-regular text-gray max-w-[520px] mb-10`}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Gravida dictum fusce ut placerat.
+          Our recent get-together was a wonderful reminder of the power of unity and friendship. 
+          With every shared experience and meaningful conversation, we strengthen our bonds and foster a community rooted in peace and understanding. 
+          Together, we are creating a space where everyone feels connected, valued, and empowered to make a positive impact. 
+          Let’s continue to build these bridges of peace and support one another on this journey.
           </p>
 
           {/* Input box and button */}

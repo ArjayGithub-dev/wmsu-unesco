@@ -7,17 +7,17 @@ const AboutUs = () => {
     <div>
       <section id="about-us" className={`flex md:flex-row flex-col ${styles.paddingY} flex-col-reverse`}>
         
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-10`}>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 mb-10`}>
           <p className="font-spacegrotesk font-regular text-[18px]">About Us </p>
           <div className="flex flex-row justify-between items-center w-full mb-5">
             <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
-              Creating a better future  <br />  Generation
+              Making A Difference 🕊️🌍
             </h1>
           </div>
-          <p className={`${styles.paragraph} font-spacegrotesk font-regular text-gray max-w-[620px] mb-10`}>
+          <p className={`${styles.paragraph} font-spacegrotesk font-regular text-gray max-w-[620px] mb-10`}>  
           The <span className="font-bold text-black">WMSU Youth Peace Mediators - UNESCO Club </span> is an organization that is under the supervision of the 
-        <span className="font-bold text-black"> WMSU Peace and Human Security Institute</span>, that aims to be a medium of peace and a bridge towards unity,
-        fostering the spirit of volunteerism and solidarity in service to tother.
+          <span className="font-bold text-black"> WMSU Peace and Human Security Institute</span>, that aims to be a medium of peace and a bridge towards unity,
+          fostering the spirit of volunteerism and solidarity in service to tother.
           </p>
           {/* button */}
           <div className="flex w-full sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0">

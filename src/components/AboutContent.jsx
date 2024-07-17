@@ -10,7 +10,7 @@ const AboutContent = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-10`}>
         <div className="flex flex-row justify-between items-center w-full mb-5">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
-            Our Vision
+            Our Vision ✨
           </h1>
         </div>
         <div className="flex relative">
@@ -25,7 +25,7 @@ const AboutContent = () => {
 
         <div className="flex flex-row justify-between items-center w-full mb-5">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
-            Our Mission
+            Our Mission 🕊️
           </h1>
         </div>
         <div className="flex">
@@ -55,7 +55,7 @@ const AboutContent = () => {
 
         <div className="flex flex-row justify-between items-center w-full mb-5 mt-12">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
-            Goals and Objectives
+            Goals and Objectives ☮️
           </h1>
         </div>
         <ul className="list-disc ml-[90px] ul-dots">

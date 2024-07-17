@@ -15,16 +15,17 @@ const Navbar = () => {
       </div>
 
       {/* Center: NavLinks */}
-      <ul className="hidden md:flex space-x-10 justify-center flex-grow">
+      <ul className="hidden md:flex space-x-10 justify-center flex-grow ">
         {navLinks.map((link) => (
-          <li key={link.id} className={`font-spacegrotesk font-regular text-[16px] cursor-pointer ${location.pathname === link.id ? 'text-orange-500' : 'text-white'} hover:text-orange-500`}>
+          <li key={link.id} className={`font-spacegrotesk font-regular text-[16px] cursor-pointer ${location.pathname === link.id ? 'text-orange-500' : 'text-white' } hover:text-orange-500`}>
             <Link to={link.id}>{link.title}</Link>
           </li>
         ))}
+
       </ul>
 
       {/* Right side: Contact Us */}
-      <div className="hidden md:flex items-center space-x-6">
+      <div className="hidden md:flex items-center space-x-6">    
         <li className="list-none gradient-button font-spacegrotesk font-semibold font-white text-white cursor-pointer text-[16px] px-6 py-3 rounded-[30px]">
           <Link to="/ContactPage">Contact Us</Link>
         </li>

@@ -5,7 +5,7 @@ const Subscribe = () => {
   return (
     <section id="join-now" className={`flex flex-col md:flex-row ${styles.paddingY} justify-center items-center`}>
       <div className={`flex-1 ${styles.flexStart} relative flex-col xl:px-0 max-w-[1160px] sm:px-16 px-8 mb-10 justify-center items-center text-center`}>
-        <h1 className="text-center font-spacegrotesk font-bold ss:text-[50px] text-[40px] text-white leading-tight w-full">
+        <h1 className="text-center font-spacegrotesk font-bold ss:text-[50px] text-[32px] text-white leading-tight w-full">
           Subscribe to our newsletter for latest news and events <br/>
         </h1>
         <form className="mt-10 w-full flex justify-center">
