@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.heroBg {
+  background-image: url('../src/assets/herobg.png');
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #ED1C24 17%, #F48401 82%);
+}
+
+.gradient-blue {
+  background: linear-gradient(180deg, hsla(240, 100%, 50%, 0) 0%, #0000ff 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; 
+  opacity: 1; 
+}
+
+.gradient-red {
+  background: linear-gradient(180deg, #0000ff00 0%, #ED1C24 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; 
+  opacity: 1; 
+}
+
+.gradient-orange {
+  background: linear-gradient(180deg, #0000ff00 0%, #F48401 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  border-bottom-left-radius: 0.5rem; 
+  border-bottom-right-radius: 0.5rem; 
+  opacity: 1; 
+}
+
+
+.ul-dots {
+  list-style-type: none; 
+  padding-left: 1em; 
+}
+
+.ul-dots li::marker {
+  content: "•  "; 
+  color: #F48401;
+  font-size: 2.2em; 
+  padding-top: 20px;
+}
+
