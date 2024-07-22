@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from '../style';
 
 const Subscribe = () => {
@@ -9,17 +9,17 @@ const Subscribe = () => {
           Become a Peace Mediators Volunteer <br/>
         </h1>
         <p className={`${styles.paragraph} font-spacegrotesk text-[#BDBDBC] text-[16px] max-w-[800px] mt-2 leading-tight`}>
-        Join our team of dedicated individuals working towards fostering peace and resolving conflicts within communities. 
+          Join our team of dedicated individuals working towards fostering peace and resolving conflicts within communities. 
         </p>
-          <div className="w-full max-w-lg mt-10">
-            <button
-              className="font-spacegrotesk font-semibold text-[18px] absolute rounded-[30px] px-12 py-3 text-sm text-white gradient-button">
-              Register
-            </button>
-          </div>
+        <div className="w-full flex justify-center mt-10">
+          <button
+            className="font-spacegrotesk font-semibold text-[18px] rounded-[30px] px-12 py-3 text-sm text-white gradient-button">
+            Register
+          </button>
+        </div>
       </div>
     </section>
   )
 }
 
-export default Subscribe
+export default Subscribe;
