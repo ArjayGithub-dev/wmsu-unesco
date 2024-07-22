@@ -12,7 +12,7 @@ const Administration = () => {
             </h1>
         </div>
 
-        <div className="relative w-[350px] h-[550px] rounded-[10px] overflow-hidden">
+        <div className="relative w-[320px] h-[350px] rounded-[10px] overflow-hidden">
           <img src={clarise} alt="" className="w-full h-full object-cover" />
           <div className="gradient-orange">
             <p className="font-spacegrotesk font-bold absolute bottom-12 left-0 right-0 text-center text-white text-[22px]">Name</p>
@@ -20,7 +20,7 @@ const Administration = () => {
           </div>
         </div>
 
-        <div className="relative w-[350px] h-[550px] rounded-[10px] overflow-hidden">
+        <div className="relative w-[320px] h-[350px] rounded-[10px] overflow-hidden">
           <img src={clarise} alt="" className="w-full h-full object-cover" />
           <div className="gradient-blue">
             <p className="font-spacegrotesk font-bold absolute bottom-12 left-0 right-0 text-center text-white text-[22px]">Name</p>
@@ -28,10 +28,10 @@ const Administration = () => {
           </div>
         </div>
 
-        <div className="relative w-[350px] h-[550px] rounded-[10px] overflow-hidden">
+        <div className="relative w-[320px] h-[350px] rounded-[10px] overflow-hidden">
           <img src={clarise} alt="" className="w-full h-full object-cover" />
           <div className="gradient-red">
-            <p className="font-spacegrotesk font-bold absolute bottom-12 left-0 right-0 text-center text-white text-[22px]">Clarise Jane Tayao</p>
+            <p className="font-spacegrotesk font-bold absolute bottom-12 left-0 right-0 text-center text-white text-[22px]">Name</p>
             <p className="font-spacegrotesk absolute bottom-4 left-0 right-0 text-center text-white text-lg">Club President</p>
           </div>
         </div>

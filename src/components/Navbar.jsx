@@ -42,10 +42,10 @@ const Navbar = () => {
 
       {/* Dropdown Menu for smaller screens */}
       {isMenuOpen && (
-        <div className="absolute top-16 right-0 justify-center w-full bg-black shadow-lg md:hidden mt-[40px] z-10">
-          <ul className="flex flex-col items-center space-y-4 py-16">
+        <div className="absolute top-16 right-0 justify-center w-full bg-black shadow-lg md:hidden mt-10">
+          <ul className="flex flex-col items-center space-y-10 py-14">
             {navLinks.map((link) => (
-              <li key={link.id} className={`font-spacegrotesk font-regular text-white cursor-pointer text-[16px] p-2 ${location.pathname === link.id ? 'text-orange-500' : 'text-white' } hover:text-orange-500`}>
+              <li key={link.id} className={`font-spacegrotesk font-regular text-white cursor-pointer text-[16px] ${location.pathname === link.id ? 'text-orange-500' : 'text-white' } hover:text-orange-500`}>
                 <Link to={link.id}>{link.title}</Link>
               </li>
             ))}

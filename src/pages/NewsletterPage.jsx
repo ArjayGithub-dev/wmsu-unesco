@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { Navbar, Footer, CopyRight, PageHero } from "../components";
+import { Navbar, Footer, CopyRight, PageHero, NewsContent } from "../components";
 
 
 const NewsletterPage = () => (
@@ -15,6 +15,12 @@ const NewsletterPage = () => (
     <div className={`${styles.paddingX} ${styles.flexCenter} heroBg`}>
       <div className={`${styles.boxWidth}`}>
         <PageHero />
+      </div>
+    </div>  
+
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-cream`}>
+      <div className={`${styles.boxWidth}`}>
+        <NewsContent />
       </div>
     </div>  
 

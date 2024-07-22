@@ -9,6 +9,8 @@ import CopyRight from "./CopyRight";
 import PageHero from "./PageHero";
 import AboutContent from "./AboutContent";
 import ScrollToTop from "./ScrollToTop";
+import NewsContent from "./NewsContent";
+import ContactContent from "./ContactContent";
 
 export {
   Navbar,
@@ -21,5 +23,7 @@ export {
   CopyRight,
   PageHero,
   AboutContent,
-  ScrollToTop
+  ScrollToTop,
+  NewsContent,
+  ContactContent
 };

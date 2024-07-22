@@ -25,33 +25,6 @@ const Hero = () => {
             referrerpolicy="strict-origin-when-cross-origin" 
             allowfullscreen></iframe>
         </div>
-
-        {/* <div className="flex flex-wrap justify-center mt-[40px]">
-
-          <div className="relative w-[350px] h-[250px] md:w-[300px] md:h-[200px] sm:w-[200px] sm:h-[100px] rounded-lg overflow-hidden -mr-[10px] sm:-mr-[50px] mt-6 mb-6 ss:mb-0">
-            <img src={img6} alt="" className="w-full h-full object-cover" />
-            <div className="gradient-orange">
-              <p className="font-spacegrotesk absolute bottom-4 left-0 right-0 text-center text-white text-lg">Volunteerism</p>
-            </div>
-          </div>
-
-          <div className="relative w-[350px] h-[250px] sm:w-[250px] sm:h-[200px] md:w-[350px] md:h-[250px]  rounded-lg overflow-hidden z-10">
-            <img src={img8} alt="" className="w-full h-full object-cover" />
-            <div className="gradient-blue">
-              <p className="font-spacegrotesk absolute bottom-4 left-0 right-0 text-center text-white text-lg">Peace Mediators</p>
-            </div>
-          </div>
-          
-          <div className="relative w-[350px] h-[250px] md:w-[300px] md:h-[200px] sm:w-[200px] sm:h-[100px] rounded-lg overflow-hidden -ml-[10px] sm:-ml-[50px] z-0 mt-6">
-            <img src={img1} alt="" className="w-full h-full object-cover" />
-            <div className="gradient-red">
-              <p className="font-spacegrotesk absolute bottom-4 left-0 right-0 text-center text-white text-lg">Leadership</p>
-            </div>
-          </div>
-      
-        </div> */}
-
-
       </div>
     </section>
   );
