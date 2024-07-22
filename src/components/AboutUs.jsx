@@ -6,7 +6,6 @@ const AboutUs = () => {
   return (
     <div>
       <section id="about-us" className={`flex md:flex-row flex-col ${styles.paddingY} flex-col-reverse`}>
-        
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 mb-10`}>
           <p className="font-spacegrotesk font-regular text-[18px]">About Us </p>
           <div className="flex flex-row justify-between items-center w-full mb-5">
@@ -26,9 +25,8 @@ const AboutUs = () => {
             </li>
           </div>
         </div>
-
-        <div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
-          <img src={img3} alt="" className="w-[100%] h-[100%] rounded-xl border-2 border-[#F48401]" />
+        <div className={`flex-1 ${styles.flexCenter} w-[100%] h-[100%] md:my-0 my-10 relative`}>
+          <img src={img3} alt="" className=" rounded-xl border-2 border-[#F48401]" />
         </div>
       </section>
     </div>

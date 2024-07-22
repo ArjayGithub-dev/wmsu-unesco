@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import CopyRight from "./CopyRight";
 import PageHero from "./PageHero";
 import AboutContent from "./AboutContent";
+import ScrollToTop from "./ScrollToTop";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   CopyRight,
   PageHero,
   AboutContent,
+  ScrollToTop
 };

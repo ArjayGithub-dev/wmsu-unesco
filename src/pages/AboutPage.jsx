@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { Navbar, AboutContent, PageHero, Footer, CopyRight,} from "../components";
+import { Navbar, AboutContent, PageHero, Footer, CopyRight } from "../components";
 
 
 const AboutPage = () => (
@@ -11,7 +11,7 @@ const AboutPage = () => (
         <Navbar />
       </div>
     </div>  
-
+  
     <div className={`${styles.paddingX} ${styles.flexCenter} heroBg`}>
       <div className={`${styles.boxWidth}`}>
         <PageHero />

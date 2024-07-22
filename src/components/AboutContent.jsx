@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '../style'
 import { quote } from '../assets'
+import Administration from './Administration'
 
 const AboutContent = () => {
   return (
     <div>
-    <section id="about-us" className={`flex md:flex-row flex-col ${styles.paddingY} flex-col`}>
-        
+    <section id="about-us" className={`flex md:flex-row flex-col ${styles.paddingY} flex-col`}> 
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-10`}>
         <div className="flex flex-row justify-between items-center w-full mb-5">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
@@ -22,14 +22,13 @@ const AboutContent = () => {
         to have a peaceful, conflict-free environment for both teachers and students and build a
         culture of peace not just in WMSU community but all throughout the region and the country. </p>
         </div>
-
         <div className="flex flex-row justify-between items-center w-full mb-5">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
             Our Mission 🕊️
           </h1>
         </div>
         <div className="flex">
-        <p className={`${styles.paragraph} font-spacegrotesk font-regular text-gray w-full mb-10`}>
+        <p className={`${styles.paragraph} font-spacegrotesk font-regular text-gray w-full mb-2`}>
         The club shall serve as a catalyst in:</p>
         </div>
         <ul className="list-disc ml-[90px] ul-dots">
@@ -51,8 +50,6 @@ const AboutContent = () => {
                 own community.
             </li>
         </ul>
-
-
         <div className="flex flex-row justify-between items-center w-full mb-5 mt-12">
           <h1 className="font-spacegrotesk font-bold ss:text-[36px] text-[26px] text-black">
             Goals and Objectives ☮️
@@ -87,9 +84,7 @@ const AboutContent = () => {
             agents of peace in our locale vicinity.
             </li>
         </ul>
-
-      </div>
-      
+      </div>      
     </section>
   </div>
   )

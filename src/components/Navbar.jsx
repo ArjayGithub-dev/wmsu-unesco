@@ -42,16 +42,16 @@ const Navbar = () => {
 
       {/* Dropdown Menu for smaller screens */}
       {isMenuOpen && (
-        <div className="absolute top-16 right-0 justify-center w-full bg-black shadow-lg md:hidden mt-[40px]">
+        <div className="absolute top-16 right-0 justify-center w-full bg-black shadow-lg md:hidden mt-[40px] z-10">
           <ul className="flex flex-col items-center space-y-4 py-16">
             {navLinks.map((link) => (
-              <li key={link.id} className="font-spacegrotesk font-regular text-white cursor-pointer text-[16px]">
-                <a href={`#${link.id}`}>{link.title}</a>
+              <li key={link.id} className={`font-spacegrotesk font-regular text-white cursor-pointer text-[16px] p-2 ${location.pathname === link.id ? 'text-orange-500' : 'text-white' } hover:text-orange-500`}>
+                <Link to={link.id}>{link.title}</Link>
               </li>
             ))}
-            <a href="#contact_us" className="gradient-button font-spacegrotesk font-white text-white cursor-pointer text-[16px] px-6 py-3 rounded-[30px]">
-              Contact Us
-            </a>
+            <li className="gradient-button font-spacegrotesk font-white text-white cursor-pointer text-[16px] px-6 py-3 rounded-[30px]">
+                <Link to="/ContactPage">Contact Us</Link>
+            </li>
           </ul>
         </div>
       )}

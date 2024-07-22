@@ -6,23 +6,17 @@ const Subscribe = () => {
     <section id="join-now" className={`flex flex-col md:flex-row ${styles.paddingY} justify-center items-center`}>
       <div className={`flex-1 ${styles.flexStart} relative flex-col xl:px-0 max-w-[1160px] sm:px-16 px-8 mb-10 justify-center items-center text-center`}>
         <h1 className="text-center font-spacegrotesk font-bold ss:text-[50px] text-[32px] text-white leading-tight w-full">
-          Subscribe to our newsletter for latest news and events <br/>
+          Become a Peace Mediators Volunteer <br/>
         </h1>
-        <form className="mt-10 w-full flex justify-center">
-          <div className="relative w-full max-w-lg">
-            <label className="sr-only" htmlFor="email"> Email </label>
-            <input
-              className="font-spacegrotesk w-full rounded-[30px] bg-black border border-white text-white px-8 py-4 pe-32 text-sm font-medium"
-              id="email"
-              type="email"
-              placeholder="Email"
-            />
+        <p className={`${styles.paragraph} font-spacegrotesk text-[#BDBDBC] text-[16px] max-w-[800px] mt-2 leading-tight`}>
+        Join our team of dedicated individuals working towards fostering peace and resolving conflicts within communities. 
+        </p>
+          <div className="w-full max-w-lg mt-10">
             <button
-              className="font-spacegrotesk font-semibold text-[18px] absolute end-1 top-1/2 -translate-y-1/2 rounded-[30px] px-10 py-3 text-sm text-white gradient-button">
-              Subscribe
+              className="font-spacegrotesk font-semibold text-[18px] absolute rounded-[30px] px-12 py-3 text-sm text-white gradient-button">
+              Register
             </button>
           </div>
-        </form>
       </div>
     </section>
   )
