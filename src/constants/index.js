@@ -79,7 +79,9 @@ export const footerLinks = [
     links: [
       {
         name: "Facebook",
-        link: "https://www.facebook.com/",
+        link: "https://www.facebook.com/UNESCOClubWMSU",
+        name: "Youtube",
+        link: "https://youtube.com/@crimsonpeacemediators7611?si=1ihTFbEK31Wd0Gzl",
       },
     ],
   },

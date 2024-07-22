@@ -12,11 +12,21 @@ const Hero = () => {
             <span className="font-spacegrotesk font-black">UNESCO Club </span> <br />
           </h1>
         </div>
-        <p className={`${styles.paragraph} font-spacegrotesk text-[#BDBDBC] text-[16px] max-w-[580px] mt-2`}>
+        <p className={`${styles.paragraph} font-spacegrotesk text-[#BDBDBC] text-[16px] max-w-[580px] mt-2 mb-8`}>
           The first accredited UNESCO Club in Mindanao since September 2011
         </p>
+        <div className="video-container w-auto">
+          <iframe 
+            className="sm:w-[580px] sm:h-[315px]"
+            src="https://www.youtube.com/embed/ZJBCfRvxcus?si=_Nnut95BB3Rm-kis" 
+            title="Promotional Video from previous Peace Mediators"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </div>
 
-        <div className="flex flex-wrap justify-center mt-[40px]">
+        {/* <div className="flex flex-wrap justify-center mt-[40px]">
 
           <div className="relative w-[350px] h-[250px] md:w-[300px] md:h-[200px] sm:w-[200px] sm:h-[100px] rounded-lg overflow-hidden -mr-[10px] sm:-mr-[50px] mt-6 mb-6 ss:mb-0">
             <img src={img6} alt="" className="w-full h-full object-cover" />
@@ -39,7 +49,7 @@ const Hero = () => {
             </div>
           </div>
       
-        </div>
+        </div> */}
 
 
       </div>
